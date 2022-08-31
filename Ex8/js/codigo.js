@@ -1,15 +1,17 @@
-var number = prompt("Introduce un número entero");
+function parImpar() {
+    var number = prompt("Introduce un número entero");
 
-function enter(number) {
-    if (number % 2 == 0) {
+    function enter(number) {
+        if (number % 2 == 0) {
 
-        alert("El número " + number + " es par");
+            alert("El número " + number + " es par");
 
-    } else {
+        } else {
 
-        alert("El número " + number + " es impar");
+            alert("El número " + number + " es impar");
 
+        }
     }
-}
 
-enter(number);
+    enter(number);
+}

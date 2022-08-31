@@ -1,6 +1,6 @@
-var text = prompt("Introduce un texto");
-
 function palindorm(text) {
+
+    var text = prompt("Introduce un texto");
 
     // Pasar a minusculas
     var minusString = text.toLowerCase();

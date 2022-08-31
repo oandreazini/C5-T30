@@ -1,10 +1,10 @@
-var text = prompt("Introduce un texto");
-
 function compare(text) {
+
+    var text = prompt("Introduce un texto");
 
     // compruebo si el string es igual al string puesto en minúsculas
     if (text === text.toLowerCase()) {
-        alert("La palabra esta compuesta de minusculas");
+        alert("El texto solo contiene minusculas");
     }
     // compruebo si el string es igual al string puesto en mayúsculas
     else if (text === text.toUpperCase()) {
